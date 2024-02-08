@@ -21,6 +21,7 @@ Used to gather over 100 years of data including the year, named storms, total hu
    Cleaned and Merged
 We used the api key to pull 72 years, which is as far back as they go, to pull the weather data for a coordinate in the ocean off the coast as well as a coordinate in the desert. This included max and min temperature every day for those years. We took an average of each september and deleted the rest of the data. We chose September because that is when most hurricanes occur. The three were merged together into a single data frame. 
   Data
+  
               Year  Named Storms  Hurricanes  MajorHurricanes  \
 count    73.000000     73.000000   73.000000        73.000000   
 mean   1981.000000     11.205479    6.205479         2.712329   
